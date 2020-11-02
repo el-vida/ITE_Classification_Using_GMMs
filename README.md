@@ -4,7 +4,7 @@ These programs were developed in the course of a research exchange semester at [
 
 The overall subject was the analysis of [the world's largest online typing study](https://userinterfaces.aalto.fi/typing37k/resources/Mobile_typing_study.pdf) organized by ETH Zurich, Cambridge University and Aalto University. Detailed information can be found [here](https://userinterfaces.aalto.fi/typing37k/).
 
-The classification of ITEs using GMMs has been done in succession to another students work on the effectiveness of predictions for increased productivity. For more information, please refer to his github repository: https://github.com/itko/typing_automation. Parts of those programs will also be used in this repository for data preprocessing.
+The classification of ITEs using GMMs has been done in succession to another students work on the effectiveness of predictions for increased productivity. For more information, please refer to his [github repository](https://github.com/itko/typing_automation). Parts of those programs will also be used in this repository for data preprocessing.
 
 
 If you are interested in the topic, you would like to see how fast you type compared to other participants or you would just like to contribute to the world's largest online typing study, you can take the test in [English](https://typingtest.aalto.fi/) and also in [German](https://tipp-test.de/).
