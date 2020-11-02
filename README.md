@@ -23,7 +23,7 @@ The aim of this repository is to transfer the raw data of the typing study into 
 3. Copy the program 'processing_new.py' from this repository under the 'preprocessing'-folder into the 'typing_automation' repository. Modify the file '01_processing_log.ipynb' by substituting all 'processing.py' references with references of the file 'processing_new.py'. 
 4. Run the notebook '01_processing_log.ipynb', but skip the third and fourth cell (saving lab participants and optional sub-sampling). After finishing the run of '01_processing_log.ipynb', you should have the file 'log_valid_processed.csv'
 5. Modify the following paths in this repository:
-5.1 In 'A_1': modify the path to the file 'log_raw.csv' and 'aprticipants_processed.csv' obtained from step 1. Additionally, set the variable INPUT_PATH to the path of you recently obtained 'log_valid_processed.csv'-file.
+5.1 In 'A_1': modify the path to the file 'log_raw.csv' and 'aprticipants_processed.csv' obtained from step 1. Additionally, set the variable INPUT_PATH to the path of your recently obtained 'log_valid_processed.csv'-file.
 5.2 OUTPUT_PATH from '(Letter)_2_...'-file should be the same path as INPUT_PATH from '(Letter)_1_..' file. For instance, OUTPUT_PATH of 'A_2_Merge_new_logs' is the INPUT_PATH for the next program 'B_1_Add_columns_user_performance_multiprocessing', and so on. 
 6. When all respective paths are set, run file 'A_0_Transform_Logs_Into_Slim_Version'. In the end you will receive the final log-file 'log_valid_processed_slim.csv'.
 7. Optionally, if you have split 'log_valid_processed.csv' into multiple smaller files due to hardware limitations (like me), you can use and run 'A_2_Merge_Slim_Files' to merge your sub-log-files.
